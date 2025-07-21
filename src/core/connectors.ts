@@ -18,6 +18,12 @@ export interface ConnectorMeta {
 
 export default <ConnectorMeta[]>[
 	{
+		label: 'Fizy',
+		matches: ['*://www.fizy.com/*'],
+		js: 'fizy.js',
+		id: 'fizy',
+	},
+	{
 		label: 'YouTube',
 		matches: ['*://www.youtube.com/*', '*://m.youtube.com/*'],
 		js: 'youtube.js',
